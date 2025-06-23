@@ -9,7 +9,7 @@
 Este es un proyecto que muestra mi currículum vitae en formato digital.
 
 
-## Enlace al repositorio en GitHub del Laboratorio 7
+## Enlace al repositorio en GitHub 
 https://github.com/MoraEdg/EdgarMoraCV.git
 
 ## Enlace al sitio desplegado en GitHub Pages.
