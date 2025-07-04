@@ -3,24 +3,24 @@
 ## Laboratorio 7. Desarrollo de Portafolio Web Responsivo  
 **Autor:** Edgar Mora
 
-### 📄 Descripción
+###  Descripción
 Este es un proyecto que presenta mi currículum vitae en formato digital, accesible desde cualquier dispositivo mediante un diseño responsivo y adaptable.
 
 ---
 
 ### 🔗 Enlaces relevantes
 
-- 🧠 [Repositorio GitHub](https://github.com/MoraEdg/EdgarMoraCV.git)
-- 🌐 [Sitio desplegado (GitHub Pages)](https://moraedg.github.io/EdgarMoraCV/)
-- 🎨 [Diseño base en Figma](https://www.figma.com/design/7zK11qpHPi2sC1ZGmOXm9f/Laboratiorio-1?node-id=22-2&t=u4s74PGsNLMGqSJs-1)
+-  [Repositorio GitHub](https://github.com/MoraEdg/EdgarMoraCV.git)
+-  [Sitio desplegado (GitHub Pages)](https://moraedg.github.io/EdgarMoraCV/)
+-  [Diseño base en Figma](https://www.figma.com/design/7zK11qpHPi2sC1ZGmOXm9f/Laboratiorio-1?node-id=22-2&t=u4s74PGsNLMGqSJs-1)
 
 ---
 
-## 💡 Accesibilidad e Inclusión
+##  Accesibilidad e Inclusión
 
 Este portafolio ha sido optimizado aplicando principios de **accesibilidad web** y **diseño inclusivo** basados en las pautas **WCAG** y buenas prácticas de desarrollo:
 
-### ✅ Laboratorio 7
+###  Laboratorio 7
 - Uso de etiquetas semánticas HTML5 (`header`, `main`, `section`, `footer`) para mejorar la estructura y comprensión del contenido.
 - Contraste adecuado entre texto y fondo en modo claro.
 - Imágenes con descripciones en atributos `alt`.
@@ -30,7 +30,7 @@ Este portafolio ha sido optimizado aplicando principios de **accesibilidad web**
 
 ---
 
-### 🧩 Laboratorio 8 – Mejoras en Accesibilidad
+###  Laboratorio 8 – Mejoras en Accesibilidad
 
 En esta segunda fase se aplicaron mejoras adicionales para garantizar **accesibilidad inclusiva**:
 
