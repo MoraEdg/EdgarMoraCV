@@ -211,7 +211,7 @@ button:hover {
 .toggle-theme {
   position: fixed;
   bottom: 1.5rem;
-  right: 1.5rem;
+  left: 1.5rem;
   background-color: #444;
   color: #fff;
   border: none;
@@ -239,3 +239,91 @@ button:hover {
   text-align: left;
   max-width: 600px;
 }
+/* Estilos para la nueva sección que contiene el título y el mapa */
+#heatmap-section h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.dark-mode #heatmap-section {
+    background-color: #2d3748; /* Un poco más claro que el fondo oscuro */
+    border-color: #4a5568;
+}
+
+/* Estilos para el contenedor del mapa de calor */
+#heatmap-container {
+  position: relative;
+  width: 100%;
+  max-width: 900px; /* Ancho máximo */
+  height: 600px;    /* Altura fija */
+  margin: 0 auto;   /* Centrado */
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.dark-mode #heatmap-container {
+    background-color: #1a202c;
+}
+#heatmap-container canvas {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+
+
+/* Estilos para los controles de seguimiento (sin cambios) */
+#tracking-controls {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 10000;
+  background-color: rgba(17, 24, 39, 0.9);
+  color: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  backdrop-filter: blur(5px);
+}
+
+#tracking-controls button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+}
+
+#tracking-controls button:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+#status-indicator {
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+.status-inactive, .status-stopped {
+  background-color: #ef4444; /* Rojo */
+}
+.status-calibrating {
+  background-color: #f59e0b; /* Ambar */
+}
+.status-tracking {
+  background-color: #22c55e; /* Verde */
+}
+
