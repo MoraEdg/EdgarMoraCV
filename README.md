@@ -44,7 +44,7 @@ En esta segunda fase se aplicaron mejoras adicionales para garantizar **accesibi
 
 ---
 
-###  Laboratorio 8 – Eye-tracking con Webgazer
+###  Laboratorio 10 – Eye-tracking con Webgazer
 
 Se ha incluido una funcionalidad experimental de eye-tracking que realiza las siguientes acciones:
 
